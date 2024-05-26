@@ -1,0 +1,14 @@
+{
+  "google_searchEditbox": {
+    "locatorType": "xpath",
+    "locator": "//textarea[@title='Search']"
+  },
+  "google_searchBtn": {
+    "locatorType": "xpath",
+    "locator": "//input[@value='Google Search']"
+  },
+  "google_searchResultStats": {
+    "locatorType": "id",
+    "locator": "result-stats"
+  }
+}

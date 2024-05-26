@@ -1,0 +1,42 @@
+{
+  "amazonHome_searchEditbox": {
+    "locatorType": "xpath",
+    "locator": "//input[@placeholder='Search Amazon.in']"
+  },
+  "amazonHome_searchList": {
+    "locatorType": "xpath",
+    "locator": "//div[contains(@class, 'suggestion')]/div[@role='button']"
+  },
+  "amazonHome_searchBtn": {
+    "locatorType": "xpath",
+    "locator": "//input[@value='Go']"
+  },
+  "amazonsearch_productListText": {
+    "locatorType": "xpath",
+    "locator": "//div[@class='a-section']//h2/a/span"
+  },
+  "amazonsearch_productList": {
+    "locatorType": "xpath",
+    "locator": "//div[@class='a-section']//h2/a"
+  },
+  "amazonProduct_priceSymbol": {
+    "locatorType": "xpath",
+    "locator": "//span[contains(@class, 'priceToPay')]/span/span[@class='a-price-symbol']"
+  },
+  "amazonProduct_priceValue": {
+    "locatorType": "xpath",
+    "locator": "//span[contains(@class, 'priceToPay')]/span/span[@class='a-price-whole']"
+  },
+  "amazonProduct_addtoCartBtn": {
+    "locatorType": "xpath",
+    "locator": "//div[contains(@id, 'BuyBox')]//span[text()='Add to Cart']/../input"
+  },
+  "amazonProduct_addedtoCartSuccess": {
+    "locatorType": "xpath",
+    "locator": "//div[@id='attach-added-to-cart-message']//h4[text()='Added to Cart']"
+  },
+  "amazonProduct_addedtoCartValue": {
+    "locatorType": "xpath",
+    "locator": "//b[text()='Cart subtotal']/../../following-sibling::span/span"
+  }
+}
